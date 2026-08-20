@@ -1,0 +1,58 @@
+sistema-saude/
+├─ database/
+│   ├─ script_criacao.sql
+│   └─ script_populacao.sql
+├─ src/
+│   ├─ conexao/
+│   │   └─ ConexaoBanco.java
+│   ├─ dao/
+│   │   ├─ PessoaDAO.java
+│   │   ├─ FuncionarioDAO.java
+│   │   ├─ MedicoDAO.java
+│   │   ├─ PacienteDAO.java
+│   │   ├─ UsuarioSistemaDAO.java
+│   │   ├─ UnidadeSaudeDAO.java
+│   │   ├─ PostoSaudeDAO.java
+│   │   ├─ LaboratorioDAO.java
+│   │   ├─ FarmaciaDAO.java
+│   │   ├─ AmbulanciaDAO.java
+│   │   ├─ MedicamentoDAO.java
+│   │   ├─ ConsultaDAO.java
+│   │   ├─ HorarioDAO.java
+│   │   └─ RelatorioDAO.java
+│   ├─ model/
+│   │   ├─ Pessoa.java
+│   │   ├─ Funcionario.java
+│   │   ├─ Medico.java
+│   │   ├─ Paciente.java
+│   │   ├─ PacienteFeminina.java
+│   │   ├─ UsuarioSistema.java
+│   │   ├─ AdministradorGeral.java
+│   │   ├─ CoordenadorSistema.java
+│   │   ├─ CoordenadorPosto.java
+│   │   ├─ UnidadeSaude.java
+│   │   ├─ PostoSaude.java
+│   │   ├─ Laboratorio.java
+│   │   ├─ FarmaciaParticular.java
+│   │   ├─ ServicoAmbulancia.java
+│   │   ├─ Medicamento.java
+│   │   ├─ Consulta.java
+│   │   ├─ Horario.java
+│   │   └─ Relatorio.java
+│   ├─ service/
+│   │   ├─ GestaoPessoasService.java
+│   │   ├─ GestaoUsuariosService.java
+│   │   ├─ GestaoUnidadesService.java
+│   │   ├─ GestaoHorariosService.java
+│   │   ├─ GestaoEstoqueService.java
+│   │   └─ RelatorioService.java
+│   └─ main/
+│       └─ SistemaSaudeApp.java
+├─ web/
+│   ├─ index.html
+│   ├─ style.css
+│   ├─ script.js
+│   ├─ relatorios.html
+│   └─ horarios.html
+└─ config/
+    └─ config.properties
